@@ -1,0 +1,22 @@
+{
+  "name": "@bs-oak/time",
+  "version": "0.1.0",
+  "sources": {
+    "dir": "src",
+    "subdirs": true
+  },
+  "package-specs": {
+    "module": "commonjs",
+    "in-source": true
+  },
+  "suffix": ".bs.js",
+  "namespace": true,
+  "bs-dependencies": [
+    "@bs-oak/core",
+    "@bs-oak/ext"
+  ],
+  "warnings": {
+    "error": "+101"
+  },
+  "refmt": 3
+}
